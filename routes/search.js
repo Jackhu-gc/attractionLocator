@@ -4,7 +4,7 @@ const axios = require('axios');
 const dotenv = require('dotenv');
 dotenv.config();
 
-/* GET users listing. */
+/** Get nearby restaurants based on the given latlong **/
 router.get('/', function (req, res, next) {
     let lat = req.query.lat;
     let long = req.query.long;
@@ -12,12 +12,14 @@ router.get('/', function (req, res, next) {
     const options = zomatoAPI(lat, long);
     const url = `https://${options.hostname}${options.path}`;
 
+    /**fetch data from url with latlong query**/
     axios.get(url, {headers: {'user-key': process.env.ZOMATO_KEY}})
         .then((response) => {
             return response.data;
         })
         .then(data => {
             let results = data.restaurants.map(info => {
+                /**return ready to use data without further processing**/
                 return ({
                     name: info.restaurant.name,
                     address: info.restaurant.location.address,
@@ -37,12 +39,13 @@ router.get('/', function (req, res, next) {
         })
 });
 
+/**params**/
 const queryValues = {
     count: '20',
     radiusInMeters: '20000'
 };
 
-
+/**zomato url formatting**/
 function zomatoAPI(lat, long) {
     const options = {
         hostname: 'developers.zomato.com',

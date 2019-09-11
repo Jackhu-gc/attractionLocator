@@ -4,7 +4,7 @@ const axios = require('axios');
 dotenv.config();
 var router = express.Router();
 
-/* Get attractions */
+/** Get attractions based on location from Google API **/
 router.get('/', function (req, res, next) {
     if (!req.query.latlong || !req.query) {
         res.status(400).send({"error": "oops! it looks like you're missing the query parm"});
@@ -13,12 +13,14 @@ router.get('/', function (req, res, next) {
     const options = triposoAPI(req.query.latlong);
     const url = `https://${options.hostname}${options.path}`;
 
+    /**fetch data from url with location query**/
     axios.get(url)
         .then((response) => {
             return response.data;
         })
         .then(data => {
 
+            /**Separate different returns based on whether there is image**/
             let results = data.results.map(info => {
 
                 if (info.images.length !== 0) {
@@ -52,6 +54,7 @@ router.get('/', function (req, res, next) {
 
 });
 
+/**Params**/
 const queryValues = {
     tagLabels: 'topattractions',
     orderBy: 'distance',
@@ -60,7 +63,7 @@ const queryValues = {
     radiusInMeters: '20000'
 };
 
-
+/**triposo url formatting**/
 function triposoAPI(latlong) {
     const options = {
         hostname: 'www.triposo.com',

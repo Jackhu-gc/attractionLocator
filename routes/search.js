@@ -4,7 +4,7 @@ const axios = require('axios');
 const dotenv = require('dotenv');
 dotenv.config();
 
-/** Get nearby restaurants based on the given latlong **/
+/** Get nearby r    estaurants based on the given latlong **/
 router.get('/', function (req, res, next) {
     let lat = req.query.lat;
     let long = req.query.long;
@@ -35,7 +35,7 @@ router.get('/', function (req, res, next) {
         })
         .catch((err) => {
             console.log(err);
-            res.status(400).send({"error": "something went wrong querying attractions"});
+            res.status(400).send({"error": "something went wrong querying nearby eateries"});
         })
 });
 

@@ -3,8 +3,39 @@
   <component name="ChangeListManager">
     <list default="true" id="7d4c691b-3bf1-4b49-895b-1b58864f992c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/www" beforeDir="false" afterPath="$PROJECT_DIR$/bin/www" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/attraction.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/attraction.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bowser/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bowser/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bowser/docs/Bowser.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bowser/docs/BowserUAIsNotAStringError.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bowser/docs/Parser.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bowser/docs/bowser.js.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bowser/docs/global.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bowser/docs/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bowser/docs/parser.js.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bowser/docs/scripts/collapse.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bowser/docs/scripts/jquery-3.1.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bowser/docs/scripts/linenumber.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bowser/docs/scripts/nav.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bowser/docs/scripts/polyfill.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bowser/docs/scripts/prettify/Apache-License-2.0.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bowser/docs/scripts/prettify/lang-css.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bowser/docs/scripts/prettify/prettify.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bowser/docs/scripts/search.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bowser/docs/styles/jsdoc.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bowser/docs/styles/prettify.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bowser/docs/utils.js.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/bowser/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/bowser/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/helmet-csp/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/helmet-csp/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/helmet-csp/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/helmet-csp/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/helmet/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/helmet/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/helmet/HISTORY.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/helmet/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/helmet/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/x-xss-protection/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/x-xss-protection/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/x-xss-protection/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/x-xss-protection/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/x-xss-protection/dist/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/x-xss-protection/dist/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/x-xss-protection/dist/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/x-xss-protection/dist/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/x-xss-protection/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/x-xss-protection/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/npm-debug.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/search.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/search.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -62,7 +93,7 @@
       <workItem from="1567646138872" duration="10430000" />
       <workItem from="1567922526588" duration="2515000" />
       <workItem from="1567942458051" duration="8921000" />
-      <workItem from="1568037112812" duration="4571000" />
+      <workItem from="1568037112812" duration="4966000" />
     </task>
     <servers />
   </component>
